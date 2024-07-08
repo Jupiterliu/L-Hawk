@@ -1,0 +1,43 @@
+DATA:
+  TRAIN:
+    IMG_DIR: 'datasets/mscoco/val2014'
+    LAB_DIR: 'datasets/mscoco/annotations/instances_val2014.json'
+
+  TEST:
+    KITTI_DIR: "datasets/KITTI/mask_samples"
+    BDD100K_DIR: "datasets/bdd100k/images"
+
+DETECTOR:
+  NAME: "yolov5"
+  INPUT_SIZE: [640, 640]
+  BATCH_SIZE: 1
+
+ATTACKER:
+  TYPE: "CA"
+  DOUBLE_APPLY: False
+  EPOCH: 20
+  DECAY_EPOCH: 4
+  TRAIN_BATCH: 50
+  REPEAT: 20
+  EVAL_BATCH: 800
+  LR: 0.01
+  STEP_LR: 0.3
+  MOMENTUM: 0.9
+
+  ALPHA: 5
+  BETA: 0.000006
+  CETA: 0.003
+  DELTA: 0.1
+  TARGET_LABEL: 'stop sign'  # eight attack labels ['person', 'bicycle', 'car', 'motorcycle', 'bus', 'truck', 'traffic light', 'stop sign']
+
+  PATCH:
+    WIDTH: 200
+    HEIGHT: 200
+    CONTENT: "assets/pikachu.jpg"
+    EOT: True
+    SCALE: 0.2
+    ANGLE: 0.1
+
+EVAL:
+  SCALE_EVAL: 0.24
+  ANGLE_EVAL: 0.1
