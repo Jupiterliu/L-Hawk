@@ -23,7 +23,7 @@ You can download all [model weight](https://drive.google.com/drive/folders/1ieYC
 # Physical Attacks
 ## Detailed Physical Attack Setup
 [//]: # (![The attack setup]&#40;./assets/attack_setup.png&#41;)
-<img src="./assets/attack_setup.png" width="400px">
+<img src="assets/attack_setup.png" width="400px">
 
 As shown in the above figure, we present the detailed physical attack setup from a bird's eye view.
 The car is traveling at speed _v_ in one lane of a 6 m wide two-way lane.
@@ -38,7 +38,7 @@ The distance between the adversarial patch and the victim vehicle (i.e., _dp_) c
 
 ## Specific Patches Used
 [//]: # (![The specific patches used]&#40;./assets/physical_patch_used.png&#41;)
-<img src="./assets/physical_patch_used.png" width="400px">
+<img src="assets/physical_patch_used.png" width="400px">
 
 We present the specific adversarial patches used in the physical world in the above figure.
 For HA, we post the adversarial patch to the stop sign in two ways.
