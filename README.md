@@ -39,6 +39,7 @@ We show our stealthy patches in [Figure 1](#r26a-1-unclear-attack-setup) and the
 | Previous Study | PhysGan[a] (CVPR20) | SLAP[b] (Usenix21) | AoR[c] (Usenix24) | FINE[d] (ICLR24) | IR[e] (NDSS24) | TPatch[f] (Usenix23) | Ours       |
 | :------------: |:--------------------|:------------------:|:-----------------:|:----------------:|:--------------:|:--------------------:| :--------: |
 | Patch Size     | 122cm×183cm         |     60cm×60cm      |     50cm×50cm     |   200cm×200cm    |   60cm×60cm    |      60cm×60cm       | 60cm×60cm  |
+
 [a] Physgan: Generating Physical World-Resilient Adversarial Examples for Autonomous Driving.\
 [b] Slap: Improving Physical Adversarial Examples With Short-Lived Adversarial Perturbations.\
 [c] Adversary Is on the Road: Attacks on Visual Slam Using Unnoticeable Adversarial Patch.\
@@ -70,6 +71,7 @@ mAP (mean Average-Precision) indicate the model's performance.
 |:--------------------------------:| :-----------------: | :----------------: | :-----------------: | :----------------: |
 | Adversarial Training[g] (ICCV19) | 94\.4%              | 41\.6%             | 45\.4               | 34\.5              |
 | Input-Transformation[h] (CCS17)  | 94\.4%              | 68\.6%             | 45\.4               | 28\.8              |
+
 [g] Towards Adversarially Robust Object Detection\
 [h] Magnet: A Two-Pronged Defense Against Adversarial Examples
 
@@ -78,6 +80,7 @@ mAP (mean Average-Precision) indicate the model's performance.
 |     SentiNet[i] (S&P20)     | 100%                            | 85\.1%                       | 97\.5%                         | 0\.6%                       |
 |  PatchGuard[j] (Usenix21)   | 100%                            | 96\.9%                       | 95\.3%                         | 0\.0%                       |
 | PatchCleanser[k] (Usenix22) | 100%                            | 85\.4%                       | 96\.2%                         | 1\.0%                       |
+
 [i] Sentinet: Detecting Localized Universal Attacks Against Deep Learning Systems\
 [j] Patchguard: A Provably Robust Defense Against Adversarial Patches via Small Receptive Fields and Masking\
 [k] Patchcleanser: Certifiably Robust Defense Against Adversarial Patches for Any Image Classifier
