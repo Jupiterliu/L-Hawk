@@ -5,7 +5,6 @@ The paper will appear in the conference proceeding.
 
 We present the Pytorch implementation of digital L-Hawk's optimization and evaluation below.
 The work "[Usenix'24] TPatch: A Triggered Physical Adversarial Patch" has been very inspiring to us.
-You can also find the implementation of TPatch in [Github](https://github.com/USSLab/TPatch).
 
 ## Environment Installation
 
