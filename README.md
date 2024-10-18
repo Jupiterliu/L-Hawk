@@ -1,7 +1,11 @@
-# L-HAWK: A Controllable Physical Adversarial Patch against A Long-Distance Target
+# [NDSS'25] L-HAWK: A Controllable Physical Adversarial Patch against A Long-Distance Target
 
+Our work is accepted by NDSS Symposium 2025.
+The paper will appear in the conference proceeding.
 
 We present the Pytorch implementation of digital L-Hawk's optimization and evaluation below.
+The work "[Usenix'24] TPatch: A Triggered Physical Adversarial Patch" has been very inspiring to us.
+You can also find the implementation of TPatch in [Github](https://github.com/USSLab/TPatch).
 
 ## Environment Installation
 
@@ -36,3 +40,16 @@ Meanwhile, we also provide our contact information for those interested in acces
 
 **Our Contact:**
 Taifeng Liu ([tfliu@gmx.com](tfliu@gmx.com))
+
+## Paper Reference
+```
+@inproceedings{lhawk2025ndss,
+  address   = {San Diego, CA},
+  title     = {L-HAWK: A Controllable Physical Adversarial Patch against A Long-Distance Target},
+  booktitle = {Network and Distributed System Security Symposium, {NDSS} 2025},
+  publisher = {The Internet Society},
+  author    = {Taifeng Liu, Yang Liu, Zhuo Ma, Tong Yang, Xinjing Liu, Teng Li, and JianFeng Ma},
+  month     = feb,
+  year      = {2025}
+}
+```
