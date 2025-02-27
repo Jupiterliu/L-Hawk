@@ -32,11 +32,6 @@ Then, run `demo.py` to generate and evaluate the patch for HA(Hiding Attack), CA
 ## Physical Attack Demo
 Physical attack demos (such as, indoor/outdoor attacks, various speed attacks, and end-to-end attacks) are available in [Link](https://drive.google.com/drive/folders/1nnzW85pbG9vF1T1T4Tdw6EagopkG_Dv4?usp=sharing).
 
-### Ethical Concerns:
-To reduce the risk of misuse, we conditionally release the code to trusted parties.
-Specifically, we only expose the available portion of the implementation in the open-source repository (i.e., the digital patch optimization and evaluation).
-Meanwhile, we also provide our contact information for those interested in accessing the full code (such as laser parameters and operations).
-
 **Our Contact:**
 Taifeng Liu ([tfliu@gmx.com](tfliu@gmx.com))
 
